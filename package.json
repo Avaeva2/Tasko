@@ -1,0 +1,13 @@
+{
+  "name": "tasko-students",
+  "version": "0.1.4",
+  "private": true,
+  "description": "Browser demonstration scenarios for Tasko Students",
+  "scripts": {
+    "demo": "node tool/student_demo.cjs",
+    "demo:check": "node --check tool/student_demo.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

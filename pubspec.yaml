@@ -1,0 +1,49 @@
+name: tasko
+description: "Студенческий планер Tasko: задания, пары, канбан и учебные материалы."
+publish_to: none
+version: 0.1.4+5
+environment:
+  sdk: ^3.13.0
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  supabase_flutter: ^2.10.0
+  shared_preferences: ^2.5.3
+  uuid: ^4.5.1
+  material_symbols_icons: ^4.2874.0
+  intl: any
+  file_picker: ^10.3.10
+  flutter_svg: ^2.2.1
+  url_launcher: ^6.3.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  http: ^1.6.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/student/
+  fonts:
+    - family: Geologica
+      fonts:
+        - asset: assets/fonts/Geologica.ttf
+          weight: 300
+        - asset: assets/fonts/Geologica.ttf
+          weight: 700
+    - family: Onest
+      fonts:
+        - asset: assets/fonts/Onest.ttf
+          weight: 400
+        - asset: assets/fonts/Onest.ttf
+          weight: 600
+    - family: JetBrains Mono
+      fonts:
+        - asset: assets/fonts/JetBrainsMono.ttf
+          weight: 400
+        - asset: assets/fonts/JetBrainsMono.ttf
+          weight: 500

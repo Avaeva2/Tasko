@@ -1,0 +1,56 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.template
+/config/*.json
+!/config/*.example.json
+/config/*.local.sh
+*.private.md
+**/test-users.json
+**/seed-complete.json
+**/last-api-error.txt
+**/*.keystore
+**/*.jks
+**/key.properties
+*.p12
+*.mobileprovision
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+/build
+/coverage/
+*.symbols
+*.map.json
+
+# Local tools, databases and generated reports
+/artifacts/
+/tools/bin/
+/local-students/
+/.local/
+**/.temp/
+**/.branches/
+**/volumes/db/data/
+**/volumes/storage/
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
